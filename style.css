@@ -1,0 +1,36 @@
+@font-face { font-family: ZCOOL-Kuaile; 
+    src: url('./sources/ZCOOLKuaiLe-Regular.ttf'); } 
+
+@font-face { font-family: Righteous; 
+    src: url('./sources/Righteous-Regular.ttf'); } 
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.selector{
+    width: 30%;
+    height: 100%;
+    float: left;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    background-color: rgb(210,210,210);
+    text-align: center;
+}
+.selector button{
+    width: 80%;
+    height: 40px;
+    border: 4px solid rgb(0,210,20);
+    margin-left: 10px;
+    margin-top: 2em;
+}
+
+.canvas{
+    height: 100%;
+    width: 70%;
+    float:right;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
